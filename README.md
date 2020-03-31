@@ -38,6 +38,7 @@ Szkielet kodu
         Zacznij uzupełniając poniższy program.
         Cały program może składać się tylko z jednego pliku .cpp, ale jeśli potrzebujesz ich więcej, to śmiało.
 
+
 #include <string> 
 #include <iostream> 
 #include <cassert>
