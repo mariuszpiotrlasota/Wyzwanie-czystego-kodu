@@ -1,6 +1,4 @@
 
-Wyzwanie czystego kodu
-
 Za Tobą już quiz z C++, a to Twoje zadanie. Napisz aplikację, która szyfruje i deszyfruje tekst używając szyfru podstawieniowego. Szyfr podstawieniowy to po prostu podmiana liter tekstu na inne litery. Najprostszym przykładem jest szyfr Cezara, w którym każdy znak jest przesunięty o 3 pozycje. 
 
 Przykład szyfru Cezara:
@@ -19,25 +17,22 @@ Po zaszyfrowaniu takim kluczem ciągu ‚abcd’ otrzymamy ‚gczr’. Aby odszy
 
      
 
-Wymagania obowiązkowe
+Wymagania obowiązkowe:
+-losowe generowanie klucza (innego przy każdym uruchomieniu)
+-szyfrowanie ciągu wejściowego (obojętnie czy jest to argument programu argv, cin, plik, czy string) i wypisanie rezultatu na ekranie (cout)
+-deszyfrowanie zaszyfrowanego wyżej ciągu i wypisanie rezultatu na ekranie (cout)
 
-        losowe generowanie klucza (innego przy każdym uruchomieniu)
-        szyfrowanie ciągu wejściowego (obojętnie czy jest to argument programu argv, cin, plik, czy string) i wypisanie rezultatu na ekranie (cout)
-        deszyfrowanie zaszyfrowanego wyżej ciągu i wypisanie rezultatu na ekranie (cout)
+Wymagania dodatkowe, czyli kryteria oceny:
+-obsługa wszystkich znaków drukowanych (cyfry, przecinki, kropki, wykrzykniki, małe i duże litery, spacje)
+-użycie jak najmniejszej liczby pętli (idealnie bez jakichkolwiek pętli for, do, while, for_each)
+-używanie algorytmów STL
+-elegancki i czysty kod (jednolite formatowanie, konwencje nazewnicze)
+-krótki kod
 
-Wymagania dodatkowe, czyli kryteria oceny
+Szkielet kodu:
 
-        obsługa wszystkich znaków drukowanych (cyfry, przecinki, kropki, wykrzykniki, małe i duże litery, spacje)
-        użycie jak najmniejszej liczby pętli (idealnie bez jakichkolwiek pętli for, do, while, for_each)
-        używanie algorytmów STL
-        elegancki i czysty kod (jednolite formatowanie, konwencje nazewnicze)
-        krótki kod
-
-Szkielet kodu
-
-        Zacznij uzupełniając poniższy program.
-        Cały program może składać się tylko z jednego pliku .cpp, ale jeśli potrzebujesz ich więcej, to śmiało.
-
+Zacznij uzupełniając poniższy program.Cały program może składać się 
+tylko z jednego pliku .cpp, ale jeśli potrzebujesz ich więcej, to śmiało.
 
 #include <string> 
 #include <iostream> 
@@ -61,17 +56,12 @@ int main() {
     return 0;
 }
 
-Przysyłanie rozwiązań
-
-    Aby przesłać mi rozwiązanie musisz mieć pewność, że spełnia ono wszystkie wymagania obowiązkowe. Im więcej wymagań dodatkowych zostanie spełnione, tym lepsza będzie ocena Twojego rozwiązania. Rozwiązanie prześlij na adres email lukasz@coders.school. Tytuł maila: Wyzwanie czystego kodu. Treść:
-        link do repozytorium na GitHubie lub
-        link do Gista lub
-        plik źródłowy w załączniku
+Przysyłanie rozwiązań:
+Aby przesłać mi rozwiązanie musisz mieć pewność, że spełnia ono wszystkie wymagania obowiązkowe. Im więcej wymagań dodatkowych zostanie spełnione, tym lepsza będzie ocena Twojego rozwiązania. Rozwiązanie prześlij na adres email lukasz@coders.school. Tytuł maila: Wyzwanie czystego kodu. Treść:
+link do repozytorium na GitHubie lublink do Gista lub plik źródłowy w załączniku
 
 Nie wysyłaj skompilowanego programu!
 
 Wyniki wyzwania opublikuję na WWW i Facebooku Coders School 2 kwietnia. Ze zwycięzcami skontaktuję się mailowo. Zwycięskie rozwiązania zostaną opublikowane, aby wszystkie osoby biorące udział w wyzwaniu mogły porównać swój kod ze zwycięskim.
 Powodzenia!
-
-Łukasz Ziobroń
 
